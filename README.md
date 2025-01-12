@@ -6,7 +6,6 @@ This script automates the process of moving calendar events between calendars in
 ## Features
 - Batch process events from multiple source calendars.
 - Filter events based on specific keywords.
-- Handles missing values gracefully.
 
 ## Usage
 1. Open the macOS **Script Editor**.
