@@ -1,25 +1,30 @@
-# Move Calendar Events
+# Batch Move Calendar Events
 
-## Description
-This script automates the process of moving calendar events between calendars in the macOS Calendar app.
+## About
+This AppleScript for macOS helps you batch-move calendar events between calendars. You can also filter events by keywords, making it easier to organize your schedule.
 
-## Features
-- Batch process events from multiple source calendars.
-- Filter events based on specific keywords.
+---
 
-## Usage
-1. Open the macOS **Script Editor**.
-2. Copy and paste the script into the editor.
-3. Customize the following variables:
-   - **Target Calendar**: Replace `"Target Calendar"` with the name of your destination calendar.
-   - **Source Calendars**: Replace `{"Source Calendar 1", "Source Calendar 2"}` with the names of your source calendars.
-   - **Keyword**: Replace `"Keyword"` with the string used to filter events.
-4. Run the script.
+## How to Use
+1. Open the script in **Script Editor** on macOS. 
+2. Customize these values in the script:
+   - **Target Calendar**: Replace `"Target Calendar"` with the destination calendar name.
+   - **Source Calendars**: Replace `{"Source Calendar 1", "Source Calendar 2"}` with the source calendar names.
+   - **Keyword**: Replace `"Keyword"` with the word or phrase you want to filter by.
+3. Run the script. 🎉
+
+### Important Notes:
+- **Calendar Names**: Make sure the calendar names match exactly, including:
+  - Uppercase/lowercase letters.
+  - Spaces (e.g., `"Work Tasks"` vs `"WorkTasks"`).
+  - Emojis: If your calendar name contains emojis, it's best to **manually remove them temporarily** before running the script. After the script completes, you can add the emojis back.
+- If the script cannot find a calendar, double-check the spelling and formatting in the **Calendar app**.
+
+---
 
 ## License
-This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](LICENSE).
-- Free for personal use and modification.
-- Redistribution or adaptation must include attribution.
-- **Commercial use is strictly prohibited.**
+This project is licensed under the **[Creative Commons Attribution-NonCommercial 4.0](https://creativecommons.org/licenses/by-nc/4.0/)** license.
 
-For more details, visit [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+- Free for personal use and modification.
+- Must include attribution if shared.
+- Commercial use is not allowed.
